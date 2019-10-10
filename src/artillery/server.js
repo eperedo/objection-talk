@@ -3,7 +3,7 @@ require("./../index");
 
 const Hapi = require("@hapi/hapi");
 
-const Person = require("../../person");
+const Person = require("../models/Person");
 
 const server = new Hapi.Server({
   host: "localhost",
