@@ -1,0 +1,25 @@
+{
+  "name": "objection-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "pm2 delete all",
+    "start": "pm2 start server.js",
+    "logs": "pm2 logs",
+    "monit": "pm2 monit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "18.4.0",
+    "knex": "0.19.4",
+    "mysql": "2.17.1",
+    "objection": "1.6.11"
+  },
+  "devDependencies": {
+    "pm2": "3.5.1"
+  }
+}
